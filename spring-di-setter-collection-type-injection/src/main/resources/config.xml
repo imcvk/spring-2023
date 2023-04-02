@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.springdi.beans.CollectionInjectionClass" name="collectionInjectionClass">
+        <property name="listOfString">
+            <list>
+                <value>ListValue1</value>
+                <value>ListValue2</value>
+                <value>ListValue3</value>
+                <value>ListValue4</value>
+            </list>
+        </property>
+        <property name="mapOfString">
+            <map>
+                <entry key="key1" value="mapValue1"/>
+                <entry key="key2" value="mapValue2"/>
+                <entry key="key3" value="mapValue3"/>
+                <entry key="key4" value="mapValue4"/>
+            </map>
+        </property>
+        <property name="setOfStrings">
+            <set>
+                <value>setValue1</value>
+                <value>setValue2</value>
+                <value>setValue3</value>
+                <value>setValue4</value>
+            </set>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="prop1">property1</prop>
+                <prop key="prop2">property2</prop>
+                <prop key="prop3">property3</prop>
+                <prop key="prop4">property4</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

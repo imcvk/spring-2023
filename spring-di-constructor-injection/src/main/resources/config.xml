@@ -2,8 +2,23 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean class="com.constructor_injection.beans.User">
-        <constructor-arg name="userid" value="123"/>
-        <constructor-arg name="userName" value="sdfsdf"/>
+    <bean class="com.constructor_injection.beans.Vehicle" name="vehicle">
+        <constructor-arg name="vehicleId" value="123"></constructor-arg>
+        <constructor-arg name="vehicleName" value="Test vehicle"></constructor-arg>
     </bean>
+
+    <bean class="com.constructor_injection.beans.User" name="user">
+        <constructor-arg name="userid" value="123"/>
+        <constructor-arg name="userName" value="Test User Name"/>
+        <constructor-arg name="city">
+            <list>
+                <value>sfsdf</value>
+                <value>sfsdf</value>
+                <value>sfsdf</value>
+                <value>sfsdf</value>
+            </list>
+        </constructor-arg>
+        <constructor-arg name="vehicle" ref="vehicle"/>
+    </bean>
+
 </beans>

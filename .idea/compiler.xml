@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-di-setter_injection" />
-        <module name="spring-di-referance-types" />
-        <module name="spring-di-collection-type-injection" />
         <module name="spring-di-constructor-injection" />
+        <module name="spring-di-setter-collection-type-injection" />
+        <module name="spring-di-setter-reference-types" />
+        <module name="spring-di-constructor-injection-ambiguity-problem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-di-setter-collection-type-injection" target="18" />
       <module name="spring-di-setter-referance-types" target="18" />
     </bytecodeTargetLevel>
   </component>

@@ -9,8 +9,9 @@ public class MainApp {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         User user = (User) context.getBean("user");
-        Vehicle vehicle=(Vehicle) context.getBean("vehicle");
+        Vehicle vehicle = (Vehicle) context.getBean("vehicle");
         System.out.println(user);
         System.out.println(vehicle);
+        System.out.println(user.getCity());
     }
 }

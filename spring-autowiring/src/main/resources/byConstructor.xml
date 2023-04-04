@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.xml.byConstructor.beans.Address" name="address">
+        <property name="city" value="aasda"/>
+        <property name="state" value="sdfsdf"/>
+        <property name="country" value="asdads"/>
+    </bean>
+    <bean class="com.xml.byConstructor.beans.User" name="user" autowire="constructor"/>
+
+</beans>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-autowiring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-autowiring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-bean-life-cycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-bean-life-cycle/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-di-constructor-injection-ambiguity-problem/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-di-constructor-injection-ambiguity-problem/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-di-constructor-injection/src/main/java" charset="UTF-8" />
@@ -11,6 +15,10 @@
     <file url="file://$PROJECT_DIR$/spring-di-setter-reference-types/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-di-setter_injection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-di-setter_injection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-qualifier-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-qualifier-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-standalone-collections/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-standalone-collections/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

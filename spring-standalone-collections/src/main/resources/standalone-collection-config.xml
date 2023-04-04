@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+    <util:list list-class="java.util.ArrayList" id="addresses">
+        <value>Pune1</value>
+        <value>Pune2</value>
+        <value>Pune3</value>
+        <value>Pune4</value>
+    </util:list>
+    <util:map map-class="java.util.HashMap" id="phoneNo">
+        <entry key="phone1" value="phoneNo1"/>
+        <entry key="phone2" value="phoneNo2"/>
+        <entry key="phone3" value="phoneNo3"/>
+        <entry key="phone4" value="phoneNo4"/>
+    </util:map>
+    <util:set set-class="java.util.HashSet" id="courses">
+        <value>Spring1</value>
+        <value>Spring2</value>
+        <value>Spring3</value>
+        <value>Spring4</value>
+        <value>Spring5</value>
+    </util:set>
+    <bean class="standalone.beans.User" id="user">
+        <property name="addresses" ref="addresses"/>
+        <property name="courses" ref="courses"/>
+        <property name="phoneNo" ref="phoneNo"/>
+    </bean>
+</beans>

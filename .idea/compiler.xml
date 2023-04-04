@@ -8,10 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-di-setter_injection" />
+        <module name="spring-bean-life-cycle" />
+        <module name="spring-standalone-collections" />
+        <module name="spring-autowiring" />
         <module name="spring-di-constructor-injection" />
         <module name="spring-di-setter-collection-type-injection" />
         <module name="spring-di-setter-reference-types" />
         <module name="spring-di-constructor-injection-ambiguity-problem" />
+        <module name="spring-qualifier-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

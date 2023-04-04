@@ -14,6 +14,10 @@
         <module>spring-di-setter-reference-types</module>
         <module>spring-di-constructor-injection</module>
         <module>spring-di-constructor-injection-ambiguity-problem</module>
+        <module>spring-bean-life-cycle</module>
+        <module>spring-autowiring</module>
+        <module>spring-qualifier-annotation</module>
+        <module>spring-standalone-collections</module>
     </modules>
 
     <properties>
@@ -53,6 +57,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
             <version>6.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>jsr250-api</artifactId>
+            <version>1.0</version>
         </dependency>
         <!--        Other-->
         <dependency>

@@ -18,6 +18,10 @@
         <module>spring-autowiring</module>
         <module>spring-qualifier-annotation</module>
         <module>spring-standalone-collections</module>
+        <module>spring-stereotype-annotations</module>
+        <module>spring-bean-scope</module>
+        <module>spring-expression-language</module>
+        <module>spring-autowiring-annotations</module>
     </modules>
 
     <properties>

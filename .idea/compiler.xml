@@ -19,11 +19,13 @@
         <module name="spring-autowiring-annotations" />
         <module name="spring-autowiring" />
         <module name="spring-di-constructor-injection" />
+        <module name="spring-java-based-configuration" />
         <module name="spring-qualifier-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-di-setter-referance-types" target="18" />
+      <module name="spring-sterotype-annotation" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>

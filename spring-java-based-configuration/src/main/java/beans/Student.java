@@ -1,18 +1,13 @@
-package property.beans;
+package beans;
 
 import lombok.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 @Getter
-@Setter
-@AllArgsConstructor
+@Setter@AllArgsConstructor
 @NoArgsConstructor
 @ToString
-
 public class Student {
     String name;
-    String emailId;
     @Autowired
     Address address;
 }

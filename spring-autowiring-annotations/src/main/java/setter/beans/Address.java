@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Component
 @ToString
 public class Address {
     String city;

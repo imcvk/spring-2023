@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@Component
 public class Student {
     String name;
     String emailId;

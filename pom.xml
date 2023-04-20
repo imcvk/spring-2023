@@ -22,6 +22,7 @@
         <module>spring-bean-scope</module>
         <module>spring-expression-language</module>
         <module>spring-autowiring-annotations</module>
+        <module>spring-java-based-configuration</module>
     </modules>
 
     <properties>

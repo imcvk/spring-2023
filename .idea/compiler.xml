@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-di-collection-type-injection" />
         <module name="spring-stereotype-annotations" />
         <module name="spring-bean-scope" />
         <module name="spring-bean-life-cycle" />
@@ -17,6 +18,8 @@
         <module name="spring-di-setter_injection" />
         <module name="spring-standalone-collections" />
         <module name="spring-autowiring-annotations" />
+        <module name="spring-di-referance-types" />
+        <module name="spring-DI-setter_injection" />
         <module name="spring-autowiring" />
         <module name="spring-di-constructor-injection" />
         <module name="spring-java-based-configuration" />
